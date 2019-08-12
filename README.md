@@ -1,5 +1,6 @@
 # FDDB
-* ![](./img/PNET_result.png)
+* The example is output from MTCNN Pnet. 
+  * ![](./img/PNET_result.png)
 ___
 ### Information
 * The `FDDB.exe` is build by [FDDB: Face Detection Data Set and Benchmark](http://vis-www.cs.umass.edu/fddb/) open source.
