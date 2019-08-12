@@ -13,4 +13,4 @@ ___
 * Other parameter be changed in `FDDB.py`, include where annotations, original picture, and FDDB folder are located.
 ___
 ### Example
-* Take a look in `runFDDB_example.html`
+* Take a look in `runFDDB_example.py`
