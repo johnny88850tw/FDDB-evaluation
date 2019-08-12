@@ -1,4 +1,5 @@
 # FDDB
+![](./img/PNET_result.png)
 ___
 ### Information
 * The `FDDB.exe` is build by [FDDB: Face Detection Data Set and Benchmark](http://vis-www.cs.umass.edu/fddb/) open source.
@@ -7,7 +8,7 @@ ___
   * 2. Include index parameters :
     * If index is given value `-1`, then FDDB run as `original mode`
     * If index is given value with positive integer, then FDDB run as `debug mode`, that will show the output of `index` image. 
-    ![](./img1.png)
+    ![](./img/temp.png)
 ___
 ### Notice
 * Before you run `FDDB.exe`, make sure to download FDDB dataset.
