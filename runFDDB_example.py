@@ -1,18 +1,7 @@
-#!/usr/bin/env python
-# coding: utf-8
+from FDDB import FDDB
+dd = FDDB
+dd.runFDDB(pred='./FDDB-result/result.txt', result_path=None, index=-1)
 
-# In[1]:
-
-
-# use
-from FDDB import runFDDB
-runFDDB(pred='./FDDB-result/result.txt', result_path=None, index=-1)
-
-
-# In[2]:
-
-
-get_ipython().run_line_magic('matplotlib', 'inline')
 from matplotlib import pyplot as plt
 import numpy as np
 
