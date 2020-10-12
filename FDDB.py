@@ -57,6 +57,7 @@ class FDDB:
             bboxes = detector(img)
 
             # fprint to file
+            temp = path
             temp = temp + '\n' + str(len(bboxes))
             for bbox in bboxes:
                 rect = list(map(int, bbox[0:4]))
