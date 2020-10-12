@@ -1,5 +1,5 @@
 from FDDB import FDDB
-dd = FDDB
+dd = FDDB()
 dd.runFDDB(pred='./FDDB-result/result.txt', result_path=None, index=-1)
 
 from matplotlib import pyplot as plt
