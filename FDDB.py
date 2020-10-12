@@ -31,7 +31,7 @@ class FDDB:
         print(doPath)
         os.system(doPath)
 
-    def genResultTxt(self, detector, RGB=True, output='./result.txt'):
+    def genResultTxt(self, detector, RGB=True, output=None):
         '''
         detector : the method to predict an unknown image.
         RGB : which datatype is the input data of detector, if True, than RGB, if False, than BGR.
@@ -41,6 +41,8 @@ class FDDB:
             The method will be use with `detector(img)`, and output with list of [x1, y1, x2, y2, score],
             if your method is not look like that, you must transform with an outer function.
         '''
+        if output is None:
+            output = self.d
         with open(self.l, 'r') as fp:
             paths = fp.readlines()
         maxScore = 0
@@ -58,7 +60,7 @@ class FDDB:
 
             # fprint to file
             temp = path
-            temp = temp + '\n' + str(len(bboxes))
+            temp = temp + str(len(bboxes))
             for bbox in bboxes:
                 rect = list(map(int, bbox[0:4]))
                 w = rect[2] - rect[0]
