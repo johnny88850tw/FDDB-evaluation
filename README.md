@@ -4,6 +4,7 @@
 ___
 ### Information
 * The `FDDB.exe` is build by [FDDB: Face Detection Data Set and Benchmark](http://vis-www.cs.umass.edu/fddb/) open source.
+  * Using `win10` OS and `Dev C++` IDE.
 * Extra function are added to include:
   * 1. Simplify input parameters (result.txt, savepath, and index).
   * 2. Include index parameters :
